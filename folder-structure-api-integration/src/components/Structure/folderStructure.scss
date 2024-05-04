@@ -1,0 +1,50 @@
+$ele_position: absolute;
+$border_radius: 25px;
+
+.verticleLine {
+  border-left: 3px solid var(--black);
+  position: relative;
+  height: 50px;
+  right: 28px;
+  bottom: 16px;
+  .horizontalElement {
+    position: $ele_position;
+    top: 32px;
+    display: flex;
+    flex-direction: row;
+    hr {
+      width: 32px;
+      height: 0px;
+      border: 1px solid var(--black);
+    }
+    .folderName {
+      margin-top: -3px;
+      .secondCancelButton {
+        border: 2px solid var(--black);
+        border-radius: $border_radius;
+        color: var(--black);
+        margin-left: 5px;
+      }
+    }
+    .rightButton {
+      border: 2px solid var(--black);
+      border-radius: $border_radius;
+      color: var(--white);
+      background-color: var(--black);
+      margin: 0px 5px;
+    }
+    .cancelButton {
+      border: 2px solid var(--black);
+      border-radius: $border_radius;
+      color: var(--black);
+    }
+  }
+}
+.folderImage {
+  width: 15px;
+  height: 18px;
+  margin-right: 10px;
+}
+.css-ptiqhd-MuiSvgIcon-root {
+  font-size: 13px !important;
+}

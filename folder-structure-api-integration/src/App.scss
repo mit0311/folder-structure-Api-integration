@@ -1,0 +1,28 @@
+
+.main-container{
+.header {
+  text-align: center;
+  background-color: var(--black);
+  color: var(--white);
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.rootButton {
+  background-color: var(--black);
+  color: var(--white);
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.loader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.noRecords{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+}

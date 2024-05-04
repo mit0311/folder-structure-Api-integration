@@ -1,0 +1,28 @@
+.folderContainer {
+  border: 2px solid var(--black);
+  width: 270px;
+  padding: 10px;
+  margin-left: 10px;
+  .folderForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .rightMark {
+      border: 2px solid var(--black);
+      border-radius: 4px;
+      margin-left: 4px;
+      margin-right: 4px;
+      background-color: var(--black);
+      color: var(--white);
+    }
+    .cancelMark {
+      border: 2px solid var(--black);
+      border-radius: 4px;
+    }
+    .error {
+      color: var(--red);
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

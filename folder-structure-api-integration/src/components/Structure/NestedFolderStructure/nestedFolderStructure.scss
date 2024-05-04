@@ -1,0 +1,21 @@
+$ele_position: absolute;
+$border_radius: 25px;
+
+.verticleLineForNested {
+  border-left: 3px solid var(--black);
+  position: relative;
+  height: 50px;
+  left: 13px;
+  bottom: 20px;
+  .horizontalEleForNested {
+    position: $ele_position;
+    top: 22px;
+    display: flex;
+    flex-direction: row;
+    hr {
+      width: 32px;
+      height: 0px;
+      border: 1px solid var(--black);
+    }
+  }
+}
